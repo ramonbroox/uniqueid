@@ -28,7 +28,7 @@ var settings: [SwiftSetting]? = [
   // This removes:
   // - UUID <-> UniqueID conversion APIs.
   // - UUID timestamps as 'Date' (but Date will soon join the standard library).
-  //.define("NO_FOUNDATION_COMPAT"),
+  .define("NO_FOUNDATION_COMPAT"),
 
 ]
 
